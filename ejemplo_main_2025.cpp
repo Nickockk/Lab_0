@@ -25,6 +25,8 @@ void coleccion_guardarInvestigador(Investigador* inv){
     map_investigadores.insert(entry);
 }
 
+//ESTO ES UN CAMBIO DE PRUEBA;
+
 Investigador* coleccion_getInvestigador(std::string ORCID){
 	return map_investigadores[ORCID];
 }
